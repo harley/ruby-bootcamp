@@ -99,6 +99,40 @@ print "Your full name is " + name1 + " " +  name2
 
 puts "\n\n"
 
+puts "Milestone B1 - Arrays of Numbers"
+
+puts "1. Define numbers to be an array of numbers from 1 to 10."
+numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10).to_
+puts "numbers: #{number)"
+
+# Standing up about to fall alseep, can not see what I'm doing wrong. 
+ 
+# 2. Use the each method of numbers to print numbers from 1 to 10.
+
+# 3. Use the each method on an array of numbers from 1 to 10 and only print numbers that greater than 5.
+
+# 4. Add 11 to the end of the original array numbers
+
+# 5. How do you return the last element in an array? How do you reverse the order of the array so that you get [11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]?
+
+# 6. Create an array big_numbers with numbers 100, 200, 300, 400
+
+# 7. Add two arrays together to become all_numbers to have a list of more numbers.
+
+# 8. Sort the array so you get the largest numbers first, smallest number last. (HINT: google "ruby sort array")
+
+
+# 400, 300, 200, 100, 11, 10, 9, ...
+
+# Bonus:
+
+# 1. How do you get the middle of the array? For [11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] you should get 6 (let's assume that there is always an odd number of elements in our array). 
+# 2. How do you find the biggest number in the array? The smallest?
+# 3. Use the each method in the array of numbers and only print out the even numbers.
+# 4. Use the each method in the array of numbers and only print out the odd numbers.
+
+
+
 puts "====== Milestone B2 - Methods; Arrays of Strings ======\n\n"
 
 puts "1. Write a method that takes 3 arguments (first name, middle name, and last name) and returns the full name."
@@ -107,5 +141,105 @@ def full_name(first_name, middle_name, last_name)
   puts "#{first_name} #{middle_name} #{last_name}"
 end
 
-puts "Now we are playing with Git."
-puts "I only want to send this file, which is lab1-1.rb"
+#puts full_name("harley", "michael", "davidson")
+#OUTPUT: "harley michael davidson"
+
+puts full_name("Stan", "_", "Chen")
+
+puts "\n2. Write a say_hi method that returns a greeting to that person.\n"
+
+def say_hi(name)
+  "Yo, what's up #{name}"
+  
+  puts = "\n"
+  puts "Milestone B1 - Arrays of Numbers\n\n"
+
+
+
+
+
+end
+
+
+
+puts say_hi("Stan")
+
+# bonus question from Charles
+# method that says hi to two people
+# example: puts say_hi("Stan", "Sean") 
+# OUTPUT: Yo Sean and Stan, good to see you both!
+
+def say_hi(name1, name2)
+  "yo, #{name1} and #{name2}, good to see you both!"
+end
+
+ 
+puts say_hi("Sean","Stan")
+puts say_hi("Different", "Doggy")
+
+
+# 2.9
+# Write a method that returns the sum of two numbers.
+# puts add_together(1, 2) => should print 3
+
+def add_together(num1, num2)
+  num1 + num2 
+end
+
+puts add_together(1, 2)
+
+
+# # 3. Write a method that finds the total of the numbers in an array. The method should combine the elements of the array and return one element, the total.
+
+
+
+# # puts total([1,2,3,4])
+# # # OUTPUT: 10 
+# # # because 1 + 2 + 3 + 4 = 10
+
+def total(number)
+  puts "starting"
+  sum = 0 
+  number.each do |n|
+    puts "running loop. sum is #{sum}. now doing the thing...
+    "
+    sum = (sum + n)
+    puts "sum is now: #{sum}"
+  end
+  puts "ending"
+end
+
+puts total([1,2,3,4])
+
+
+
+
+puts "4.** Bonus: **write a to_sentence method that converts an array of string elements to a single string."
+
+def to_sentence(names)
+  strings = ""
+  names.each do |n|
+    strings = strings + n + ", "
+  end
+  strings
+end
+
+puts to_sentence(["Mariah", "Elton John", "Adele"])
+
+
+
+# # puts to_sentence(["Mariah", "Elton John", "Adele"])
+# # # OUTPUT: "Mariah, Elton John, and Adele"
+
+# # puts to_sentence(["A", "B", "C", "D", "E"])
+# # # OUTPUT: "A, B, D, and E"
+
+# # puts to_sentence(["One"])
+# # OUTPUT: "One"
+
+
+
+
+
+
+
