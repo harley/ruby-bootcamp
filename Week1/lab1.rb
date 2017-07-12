@@ -37,12 +37,4 @@ end
 puts "[Task 1] the following two must be true:"
 puts "Roses are red" == capt_sentence(rose_line)
 puts "Violets are blue" == capt_sentence(violet_line)
-
-
-git push --set-upstream origin master
-
-
-
-
-
 puts "Testing one change"
