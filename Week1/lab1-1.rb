@@ -105,7 +105,7 @@ puts "1. Define numbers to be an array of numbers from 1 to 10."
 numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10).to_
 puts "numbers: #{number)"
 
-# Standing up about to fall alseep, can not see what I'm doing wrong. 
+# Standing up about to fall alseep, can not see what I'm doing wrong. Brain not able to process. 
  
 # 2. Use the each method of numbers to print numbers from 1 to 10.
 
