@@ -38,3 +38,5 @@ puts "[Task 1] the following two must be true:"
 puts "Roses are red" == capt_sentence(rose_line)
 puts "Violets are blue" == capt_sentence(violet_line)
 puts "Testing one change"
+
+puts "Testing another change, but we will keep this one on my local computer for now."
