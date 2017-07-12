@@ -106,3 +106,6 @@ puts "1. Write a method that takes 3 arguments (first name, middle name, and las
 def full_name(first_name, middle_name, last_name)
   puts "#{first_name} #{middle_name} #{last_name}"
 end
+
+puts "Now we are playing with Git."
+puts "I only want to send this file, which is lab1-1.rb"
