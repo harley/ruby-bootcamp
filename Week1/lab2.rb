@@ -1,7 +1,3 @@
-
-
-
-
 # Milestone A1 - Review Array
 
 # Create an array called singers that contain the names of the singers you like.
